@@ -3,8 +3,8 @@ const boton = document.querySelector('#boton');
 //** eventos, seleccionar primero */
 //** */
 boton.addEventListener('click', () => {
-	Notification.requestPermission().then((resultado) =>
-		console.log(`resultado es ${resultado}`)
+	Notification.requestPermission().then((resultaado) =>
+		console.log(`resultado es ${resultaado}`)
 	);
 });
 
